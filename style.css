@@ -305,6 +305,12 @@ textarea {
   height: auto;
 }
 
+.other-body {
+  color: #A3A3A3;
+	background-color: #f8f4f4;
+
+}
+
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
@@ -936,6 +942,7 @@ big {
 
 .header-vertical .container {
   width: 100%;
+  
 }
 
 @media (min-width: 768px) {
@@ -4435,7 +4442,7 @@ object {
   -ms-transition: all 0.3s linear;
 }
 .cate-lines .number-stroke {
-  font-size: 150px;
+  font-size: 90px;
   position: absolute;
   left: calc(100% - 23px);
   bottom: -30px;
@@ -5638,6 +5645,7 @@ object {
 }
 .projects-grid .projects-box .portfolio-info .portfolio-info-inner {
   text-align: center;
+  
   width: 100%;
   z-index: 1;
   transition: all 0.3s linear;
@@ -5657,10 +5665,10 @@ object {
 }
 .projects-grid .projects-box .portfolio-info .portfolio-cates {
   color: #9f9e9e;
-  font-family: "Josefin Sans", sans-serif;
+  /*font-family: "Josefin Sans", sans-serif;*/
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   letter-spacing: 0.5px;
   margin-bottom: 0;
   padding: 0 25px;
@@ -5673,11 +5681,11 @@ object {
   margin: 0 5px;
 }
 .projects-grid .projects-box .portfolio-info .portfolio-cates a:before {
-  content: "[";
+ /* content: "[";*/
   margin-right: 5px;
 }
 .projects-grid .projects-box .portfolio-info .portfolio-cates a:after {
-  content: "]";
+  /*content: "]";*/
   margin-left: 5px;
 }
 .projects-grid .projects-box .portfolio-info .portfolio-cates a:hover {
@@ -6123,7 +6131,7 @@ object {
 ## Miscellaneous
 --------------------------------------------------------------*/
 .site-overlay {
-  cursor: url(https://via.placeholder.com/32x32.png) 16 16, default;
+  cursor: url(images/close.png) 16 16, default;
   background: transparent;
   width: 100vw;
   height: 100vh;
@@ -7236,7 +7244,7 @@ section {
   background-image: url('https://via.placeholder.com/1920x500.png');
 }
 .page-header-contact {
-  background-image: url('https://via.placeholder.com/1920x500.png');
+  background-image: url(images/1920x500-contact.png);
 }
 .pheader-service-detail1 {
   background-image: url('https://via.placeholder.com/1920x500.png');
@@ -7245,7 +7253,7 @@ section {
   background-image: url('https://via.placeholder.com/1920x500.png');
 }
 .pheader-services {
-    background-image: url(https://via.placeholder.com/1920x500.png);
+    background-image: url(images/services/1920x500_services.png);
 }
 .pheader-about {
     background-image: url(images/1920x500.png);
@@ -7254,7 +7262,7 @@ section {
     background-image: url(https://via.placeholder.com/1920x500.png);
 }
 .pheader-studio {
-    background-image: url(https://via.placeholder.com/1920x500.png);
+    background-image: url(images/pheader-studio.jpg);
 }
 .pheader-typo {
     background-image: url(https://via.placeholder.com/1920x500.png);
@@ -7291,7 +7299,7 @@ section {
 .contact-right {
     padding-left: 75px;
     padding-right: 40px;
-    background-image: url('https://via.placeholder.com/510x680.png');
+    background-image: url(images/510x680-contact.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7387,7 +7395,7 @@ section {
     margin-bottom: 20px;
 }
 .icon-bg-1 {
-    background-image: url(https://via.placeholder.com/715x628.png);
+    background-image: url(images/services/bg-iconbox1.jpg);
 }
 .icon-bg-2 {
     background-image: url(https://via.placeholder.com/715x628.png);
@@ -7405,7 +7413,7 @@ section {
     background-image: url(https://via.placeholder.com/715x628.png);
 }
 .icon-bg-1:hover {
-    background-image: url(https://via.placeholder.com/715x628.png);
+    background-image: url(images/services/bg-iconbox1-hover.jpg);
 }
 .icon-bg-2:hover {
     background-image: url(https://via.placeholder.com/715x628.png);
@@ -7709,7 +7717,7 @@ section {
     background-repeat: no-repeat;
 }
 .our-studio-detail {
-    background-image: url(https://via.placeholder.com/375x375.png);
+    background-image: url(images/bg1-studio.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8456,6 +8464,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 .client-1 {
     padding-bottom: 71px;
     padding-top: 71px;
+    
 }
 .cate-lines.h-light:hover:before, .cate-lines.h-light:hover:after {
     background: #FFF;
@@ -9347,6 +9356,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   .studio-counter {
       padding-top: 70px;
       padding-bottom: 105px;
+      background-color: #444;
   }
   .services-studio {
       padding: 120px 0;
